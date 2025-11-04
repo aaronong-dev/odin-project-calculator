@@ -1,5 +1,49 @@
-.shape{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
+#shape {
+  width: 400px;
+  height: 600px;
+  background-color: #b0faf3;
+  border-radius: 35px;
+  padding: 20px;
+  margin: 20px auto;
+  border: 3px solid black;
+}
+
+#shape .screen {
+  height: 170px;
+  background-color: #ffffff;
+  color: #fff;
+  font-size: 2em;
+  text-align: right;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+  border: 4px solid black;
+  overflow: hidden;
+}
+
+#shape .buttons {
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 45px;
+  justify-content: center;
+  
+}
+
+#shape .buttons button {
+  padding: 5px;
+  width: 90px;
+  font-size: 2em;
+  border: none;
+  border-radius: 200px;
+  background-color: #c7c7c7;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border: 2px solid black;
+
+}
+
+#shape .buttons button:hover {
+  background-color: #777;
 }
